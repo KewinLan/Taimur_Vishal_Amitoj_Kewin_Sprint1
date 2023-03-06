@@ -1,0 +1,9 @@
+.VerticalLine {
+  display: table-cell;
+  font-family: sans-serif;
+  margin-left:1em;
+  border-right: solid black;
+}
+.MainText {
+  font-size: 1.2em;
+}

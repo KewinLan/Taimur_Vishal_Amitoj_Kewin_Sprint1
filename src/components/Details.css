@@ -1,0 +1,16 @@
+.formclass{
+                    background-color: palegoldenrod;
+                    text-align: center;
+                    font-size: 30;
+                    font-weight: bold;
+}
+input{
+                    width: 20%;
+                    padding: 12px 20px;
+                    margin: 8px 0;
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    font-size: 30;
+                    box-sizing: border-box;
+                  }

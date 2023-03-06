@@ -1,0 +1,82 @@
+.HeaderLinks {
+  font-family: 'Garamond', 'Times New Roman', 'serif';
+  font-size: 2em;
+  text-decoration: none;
+  float:right;
+  position: relative;
+  top: 2em; right: 1em;
+  color:black;
+}
+
+.HeaderLinks a:link, a:visited{
+  text-decoration: none;
+  color:black;
+}
+
+.HeaderLinksHome {
+  margin:1em;
+}
+.HeaderLinksAbout {
+  margin:1em;
+}
+.HeaderLinksFAQ {
+  margin:1em;
+}
+.HeaderLinksContact {
+  margin:1em;
+}
+
+
+
+.FooterLinks {
+  font-family: sans-serif;
+  position: absolute;
+  bottom: 2em; left: 1em;
+  color:black;
+}
+
+.FooterLinks a:link, a:visited{
+  text-decoration: none;
+  color:black;
+}
+
+.FooterLinksCopyright {
+  position: absolute;
+  bottom: -1em;
+}
+
+.FooterLinksTerms {
+  position: relative; 
+  left:10em;
+  margin:2em;
+}
+
+.FooterLinksPrivacy {
+  position: relative; 
+  left:10em;
+  margin:2em;
+}
+
+.FooterLinksCookies {
+  position: relative; 
+  left:10em;
+  margin:2em;
+}
+
+
+
+
+@media screen and (max-width: 58rem) { /* This is 928 pixels wide, and is so that we can have the browser console open while testing the app, without the header being cut off. */
+  .HeaderLinksHome {
+    margin:0.5em;
+  }
+  .HeaderLinksAbout {
+    margin:0.5em;
+  }
+  .HeaderLinksFAQ {
+    margin:0.5em;
+  }
+  .HeaderLinksContact {
+    margin:0.5em;
+  }
+}
